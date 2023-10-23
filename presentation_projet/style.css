@@ -7,31 +7,15 @@ h1 {
     color: darkblue;
 }
 
-a.button {
+a {
     margin: 4%;
     padding: 1.4%;
     color: cadetblue;
     background-color: aqua;
 }
 
-a:hover.button {
+a:hover {
     transition: 200ms;
     color: aqua;
     background-color: cadetblue;
-}
-
-section {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-
-article {
-    flex-basis: calc((100/3) -1);
-    margin: 4%;
-    border: solid;
-}
-
-article h3 {
-    margin: 2%;
 }
