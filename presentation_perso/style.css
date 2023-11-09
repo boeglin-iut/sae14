@@ -7,15 +7,20 @@ h1 {
     color: darkblue;
 }
 
-a {
+a.button {
     margin: 4%;
     padding: 1.4%;
     color: cadetblue;
     background-color: aqua;
 }
 
-a:hover {
+a.button:hover {
     transition: 200ms;
     color: aqua;
     background-color: cadetblue;
+}
+
+footer {
+    border-top: solid;
+    border-width: 2px;
 }
