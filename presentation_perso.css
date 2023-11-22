@@ -7,14 +7,27 @@ h1 {
     color: darkblue;
 }
 
-a.button {
+a.menu {
     margin: 4%;
     padding: 1.4%;
     color: cadetblue;
     background-color: aqua;
 }
 
-a:hover.button {
+a.menu:hover {
+    transition: 200ms;
+    color: aqua;
+    background-color: cadetblue;
+}
+
+a.menu.button {
+    margin: 4%;
+    padding: 1.4%;
+    color: cadetblue;
+    background-color: aqua;
+}
+
+a.menu.button:hover {
     transition: 200ms;
     color: aqua;
     background-color: cadetblue;
@@ -34,4 +47,9 @@ article {
 
 article h3 {
     margin: 2%;
+}
+
+footer {
+    border-top: solid;
+    border-width: 2px;
 }
