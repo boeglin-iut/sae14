@@ -73,3 +73,47 @@ h4 {
 a.more {
     color: #f0f5fe;
 }
+
+/* Style pour cacher le contenu non sélectionné */
+.langue-section {
+    display: none;
+}
+
+/* Afficher le contenu de la langue sélectionnée */
+#fr:checked ~ .langue-section.fr,
+#en:checked ~ .langue-section.en {
+    display: block;
+}
+
+img.flag_fr {
+    width: 3%;
+}
+
+img.flag_en {
+    width: 3%;
+}
+
+input {
+  display: none;
+}
+
+input + label {
+    margin: 1%;
+    cursor: pointer;
+    padding: 2% 2%;
+    border: 2px solid #3498db;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+
+  /* Styles for checked state */
+  input:checked + label {
+    background-color: #3498db;
+    color: #fff;
+  }
+
+  /* Styles for hover state */
+  input + label:hover {
+    background-color: #3498db;
+    color: #fff;
+  }
