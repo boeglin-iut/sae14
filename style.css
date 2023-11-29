@@ -94,7 +94,9 @@ img.flag_en {
 }
 
 input {
-  display: none;
+    margin: 2%;
+    display: inline-block;
+    -webkit-appearance: none;
 }
 
 input + label {
@@ -104,16 +106,16 @@ input + label {
     border: 2px solid #3498db;
     border-radius: 4px;
     transition: background-color 0.3s;
-  }
+}
 
   /* Styles for checked state */
   input:checked + label {
     background-color: #3498db;
     color: #fff;
-  }
+ }
 
   /* Styles for hover state */
   input + label:hover {
     background-color: #3498db;
     color: #fff;
-  }
+}
