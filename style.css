@@ -5,6 +5,9 @@ body {
     background-color: #303443;
     color: #f0f5fe;
     font-family: 'Montserrat', sans-serif;
+    display :flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
 }
 
 h1 {
@@ -88,33 +91,37 @@ a.more {
 }
 
 img.flag_fr {
-    width: 3%;
+    width: 20%;
 }
 
 img.flag_en {
-    width: 3%;
+    width: 20%;
 }
 
 input {
-    margin: 2%;
     -webkit-appearance: none;
 }
 
 input + label {
-    margin: 1%;
+    flex-basis: 5%;
     cursor: pointer;
-    padding: 2% 2%;
-    border: 2px solid #3498db;
+    padding: 0.5% 0.01%;
+    border: 2px solid #353C90;
     border-radius: 4px;
     transition: background-color 0.3s;
 }
 
 input:checked + label {
-  background-color: #3498db;
+  background-color: #4C53AD;
   color: #fff;
 }
 
 input + label:hover {
-  background-color: #3498db;
+  background-color: #353C90;
   color: #fff;
+  border-color: #4C53AD;
+}
+
+div {
+    flex-basis: 100%;
 }
