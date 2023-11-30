@@ -53,7 +53,7 @@ section {
 
 article {
     flex-basis: calc((100/3) -1);
-    margin: 2%;
+    margin: 1%;
     border: solid;
     border-radius: 30px;
     border-color: #814039;
@@ -124,4 +124,12 @@ input + label:hover {
 
 div {
     flex-basis: 100%;
+}
+
+img.rpi {
+    width: 1.5%;
+}
+
+img.docker {
+    width: 2%;
 }
