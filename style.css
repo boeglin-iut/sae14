@@ -18,6 +18,10 @@ header {
     color: #ffffff;
 }
 
+nav {
+    margin-bottom: 2%;
+}
+
 a.menu {
     margin: 4%;
     padding: 0.7%;
