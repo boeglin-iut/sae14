@@ -125,11 +125,3 @@ input + label:hover {
 div {
     flex-basis: 100%;
 }
-
-img.rpi {
-    width: 1.5%;
-}
-
-img.docker {
-    width: 2%;
-}
